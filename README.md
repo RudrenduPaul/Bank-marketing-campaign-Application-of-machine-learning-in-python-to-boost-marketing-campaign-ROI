@@ -1,6 +1,6 @@
 # Marketing-campaign-using-Machine-Learning-to-positive-ROI
 
-(Please click on the file above named; Recommendation System - Paul.ipynb to see the detailed application of analytics and its interpretation)
+(Please click on the file above named; Bank Marketing Campaign - Paul.ipynb to see the detailed application of analytics and its interpretation)
 
 Analytics based marketing campaign for improving ROI
 
