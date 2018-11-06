@@ -1,4 +1,4 @@
-# Marketing-campaign-using-Machine-Learning-to-positive-ROI
+# Marketing-campaign-using-Machine-Learning-to-boost-campaign-ROI
 
 (Please click on the file above named; Bank Marketing Campaign - Paul.ipynb to see the detailed application of analytics and its interpretation)
 
