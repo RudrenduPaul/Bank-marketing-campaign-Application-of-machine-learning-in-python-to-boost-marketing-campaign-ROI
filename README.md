@@ -71,7 +71,7 @@ Total customers in list = 38245 (after data cleaning)
 Expected rev from customers for every positive response is $ 10
 Cost of each mailing is $ 3
 
-#### Mailing everyone in list
+#### Mailing to everyone in list
 Total campaign profit: $ -36657
 ROI: -44 %
 Marketing to every person on the list results in a loss of $ 34,000 with a ROI of negative 44 %
@@ -85,7 +85,7 @@ Total customers in list = 1500 (Obtained from graph shown above corresponding to
 Expected revenue from customers for every positive response is $ 10
 Cost of each mailing is $ 3
 
-#### Mailing only targeted list of people suggested by model:
+#### Mailing to only targeted list of people suggested by model:
 Total campaign profit: $ 4202.0
 ROI %: 140.0
 Marketing to people on targetted list results in a profit of $ 4,202 with a ROI of 140%.
