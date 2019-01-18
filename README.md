@@ -43,9 +43,9 @@ Variation explained by the top 10 principal components: By applying principal co
 
 1) Linear logistic regression model
 2) Naive bayes classifier model
-Decision tree classifier model
-Random forest classifier model
-Support vector machine (SVM) model
+3) Decision tree classifier model
+4) Random forest classifier model
+5) Support vector machine (SVM) model
 
 ### Model selection: 
 
