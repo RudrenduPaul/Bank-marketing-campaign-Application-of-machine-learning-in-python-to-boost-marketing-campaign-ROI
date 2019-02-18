@@ -43,7 +43,7 @@ Variation explained by the top 10 principal components: By applying principal co
 
 1) Linear logistic regression model
 2) Naive bayes classifier model
-3) KNN Model
+3) KNN classifier model
 4) Decision tree classifier model
 5) Random forest classifier model
 
