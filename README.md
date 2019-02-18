@@ -10,7 +10,7 @@ Data source: https://archive.ics.uci.edu/ml/datasets/bank+marketing
 
 Average response rate of people on list is 11% and hence, marketing to each person on the list incurs a loss of $ 34,000 with a ROI of negative 44 %
 
-This machine learning model identifies the top customer segments with high probability of conversion of around 40% (4X the average) and provides a positive ROI of 150 % on a targetted list of people.
+This machine learning model identifies the top customer segments with high probability of conversion of around 40% (4X the average) and provides a positive ROI of 79 % on a targetted list of people.
 
 ### Snapshot of analysis: ()
 Details are in the Bank Marketing Campaign - Paul.ipynb file
@@ -79,17 +79,17 @@ Marketing to every person on the list results in a loss of $ 34,000 with a ROI o
 ### Case II: Campaign based on model
 
 Mailing only to people in target list,
-Average response rate in the top customer segment is 49.75% (Applying elbow method on graph shown above)
+Average response rate in the top customer segment is 35.8 % (Applying elbow method on graph shown above)
 Total customers in list = 1500 (Obtained from graph shown above corresponding to 49% response rate)
 
 Expected revenue from customers for every positive response is $ 10
 Cost of each mailing is $ 3
 
 #### Mailing to only targeted list of people suggested by model:
-Total campaign profit: $ 4202.0
-ROI %: 140.0
-Marketing to people on targetted list results in a profit of $ 4,202 with a ROI of 140%.
+Total campaign profit: $ 2,369.0
+ROI %: 79
+Marketing to people on targetted list results in a profit of $ 2,369 with a ROI of 140 %.
 
-Using the model for campaiging improves the campaign ROI to 150% from -44%.
+Using the model for campaiging improves the campaign ROI to 79 % from -44 % (baseline).
 
-Marketing to new list of people with high probability of conversion identified by the machine learning model, improves response rate to 40%, 4X the overall average response rate of 11% and improves ROI from -44% to 150%.
+Marketing to new list of people with high probability of conversion identified by the machine learning model, improves response rate to 40 % (best model), 4X the overall average response rate of 11 % (baseline) and improves ROI from -44 % (baseline) to 79 % (best model).
