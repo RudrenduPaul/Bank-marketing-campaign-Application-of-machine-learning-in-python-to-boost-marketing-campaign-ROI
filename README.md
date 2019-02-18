@@ -43,13 +43,13 @@ Variation explained by the top 10 principal components: By applying principal co
 
 1) Linear logistic regression model
 2) Naive bayes classifier model
-3) Decision tree classifier model
-4) Random forest classifier model
-5) Support vector machine (SVM) model
+3) KNN Model
+4) Decision tree classifier model
+5) Random forest classifier model
 
 ### Model selection: 
 
-Linear logistic regression gives the best results, based on the AUC score and the estimated model accuracy scores from k-fold cross validation method.
+Linear logistic regression gives the best results, based on the AUC score on test data.
 
 ### Best Model
 
