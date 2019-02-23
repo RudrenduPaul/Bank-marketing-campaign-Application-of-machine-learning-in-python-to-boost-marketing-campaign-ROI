@@ -85,13 +85,13 @@ The same process has been repeated for all the other variables in the dataset
 4) Decision tree classifier model
 5) Random forest classifier model
 
-Logictic Regression with L1 regularization: 
+### Logistic Regression with L1 regularization: 
 
 ![auc_logistic__l1_reg](https://user-images.githubusercontent.com/38769913/53280939-9ae00600-36ee-11e9-92ae-a8fa5dd1e27c.png)
 
 AUC score for logistic regression with L1 regularization: 79 %
 
-Random Forest:
+### Random Forest:
 
 ![auc_random_forest](https://user-images.githubusercontent.com/38769913/53280959-a253df00-36ef-11e9-8040-a871d13ff3dc.png)
 
@@ -113,10 +113,9 @@ Top 10 most importamt variables based on variable importance in random forest mo
 
 ![model_comparison](https://user-images.githubusercontent.com/38769913/53280966-1346c700-36ef-11e9-8070-abbd0aeac46a.png)
 
-
 ### Model selection: 
 
-Linear logistic regression gives the best results, based on the highest AUC score on test data set.
+Linear logistic regression gives the best results, based on the highest AUC score on test data set (out of bag sample/ dataset not used to train the machine learning models).
 
 #### Lift Chart
 
@@ -125,7 +124,6 @@ How well my model is performing compared to campaigning to everyone on the list 
 Plot shows how much improvement the rank scored response is performing decile of customers targetted 
 
 ![lift chart - test set](https://user-images.githubusercontent.com/38769913/53280961-fc07d980-36ee-11e9-86fb-270d98909e68.png)
-
 
 ## Business Application
 
