@@ -16,7 +16,9 @@ This machine learning model identifies the top customer segments with high proba
 
 Details are in the Bank Marketing Campaign - Paul - Final.ipynb file
 
-Overall distribution in the original datset:
+Overall distribution of campaign reponse in the original datset:
+
+![overall_repsonse](https://user-images.githubusercontent.com/38769913/53280924-4b013f00-36ee-11e9-9745-fce1de304d83.png)
 
 
 
