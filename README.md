@@ -22,6 +22,20 @@ Overall distribution of campaign reponse in the original datset:
 
 
 
+Age:
+
+![age_distribution](https://user-images.githubusercontent.com/38769913/53280932-7d12a100-36ee-11e9-9be8-34b5656b9967.png)
+
+Job:
+
+![job](https://user-images.githubusercontent.com/38769913/53280935-8996f980-36ee-11e9-8b08-cfa7d173249f.png)
+
+Education:
+
+![education](https://user-images.githubusercontent.com/38769913/53280936-91569e00-36ee-11e9-9a41-a7a80e3c07d9.png)
+
+
+
 ### Models applied:
 
 1) Logistic regression model (with L1 regularization)
@@ -30,19 +44,39 @@ Overall distribution of campaign reponse in the original datset:
 4) Decision tree classifier model
 5) Random forest classifier model
 
+Logictic Regression with L1 regularization: 
+
+![auc_logistic__l1_reg](https://user-images.githubusercontent.com/38769913/53280939-9ae00600-36ee-11e9-92ae-a8fa5dd1e27c.png)
+
+AUC score for logistic regression with L1 regularization: 
+
+Random Forest:
+
+![auc_random_forest](https://user-images.githubusercontent.com/38769913/53280959-a253df00-36ef-11e9-8040-a871d13ff3dc.png)
+
+AUC score for random forest: 
+
+### Model Comparison: 
+
+![model_comparison](https://user-images.githubusercontent.com/38769913/53280966-1346c700-36ef-11e9-8070-abbd0aeac46a.png)
+
+
 ### Model selection: 
 
 Linear logistic regression gives the best results, based on the AUC score on test data.
 
-### Best Model
 
-#### Lift
+
+
+
+#### Lift Chart
 
 How well my model is performing compared to campaigning to everyone on the list using the best model? 
 
 Plot shows how much improvement the rank scored response is performing decile of customers targetted 
 
-![image](https://user-images.githubusercontent.com/38769913/51408653-7c09b500-1b2d-11e9-849c-d33d9a2ff60c.png)
+![lift chart - test set](https://user-images.githubusercontent.com/38769913/53280961-fc07d980-36ee-11e9-86fb-270d98909e68.png)
+
 
 ## Business Application
 
