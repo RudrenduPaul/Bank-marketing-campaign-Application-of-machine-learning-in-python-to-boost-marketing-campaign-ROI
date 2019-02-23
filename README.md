@@ -22,6 +22,8 @@ Average response rate of people on list is 11 %, marketing to every person on th
 
 The best machine learning model identifies the subset of people with high probability of conversion of around 36 % (3.6 X the average) by rank scoring the people on list (creating a targetted list) and provides a positive ROI of 79 %.
 
+Note: The test set is the out of bag sample that is a new data set and has not been used to train the machine learning models.  
+
 Detailed analysis is provided in Bank Marketing Campaign - Paul - Final.ipynb file (in the githib repository)
 
 ### Average response rate (overall): 
