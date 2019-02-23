@@ -61,7 +61,7 @@ Cost of each mailing is $ 2
 #### Mailing to everyone in list
 Total size of test set: 7649
 
-Average response rate of people in test set: 0.1093
+Average response rate of people in test set: 10.93 %
 
 Total campaign profit: $ -6938
 ROI: -45 %
