@@ -1,4 +1,4 @@
-# Marketing campaign using machine learning techniques to boost marketing campaign ROI using python 
+# Python - Bank Marketing campaign - machine learning to boost marketing campaign ROI 
 
 Please click on the Bank Marketing Campaign - Paul - Final.ipynb file above to see the detailed python code and its interpretation
 
