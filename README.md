@@ -46,7 +46,7 @@ The 95% confidence interval of the difference of means is [ 0.591 ,  1.413 ]. He
 
 ![job 1](https://user-images.githubusercontent.com/38769913/53281342-8f8fd900-36f4-11e9-8975-4ad45c838b81.jpg)
 
-### Statistical test on Job: 
+### Statistical test on Job Type: 
 
 #### Chi square test of Job between 2 groups of people who responed "Yes" vs those who responded "No"
 
@@ -63,7 +63,7 @@ From the chart shown above for the proportion of each job type in each groups, f
 
 ![education 1](https://user-images.githubusercontent.com/38769913/53281314-4e97c480-36f4-11e9-9b15-d2d734f07776.jpg)
 
-### Statistical test on Education: 
+### Statistical test on Education Level: 
 
 #### Chi square test of Education level between 2 groups of people who responed "Yes" vs those who responded "No"
 
