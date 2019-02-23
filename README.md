@@ -18,7 +18,7 @@ Details are in the Bank Marketing Campaign - Paul - Final.ipynb file
 
 Overall distribution of campaign reponse in the original datset:
 
-![overall_repsonse](https://user-images.githubusercontent.com/38769913/53280924-4b013f00-36ee-11e9-9745-fce1de304d83.png)
+![overall_repsonse](https://user-images.githubusercontent.com/38769913/53281001-cd3e3300-36ef-11e9-96fe-94ec9f0a363f.png)
 
 
 
