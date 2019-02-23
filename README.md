@@ -14,7 +14,7 @@ The dataset has 20 input variables (mix of numeric and categorical variables) an
 
 Assumptions: 
 
-1) Cost of mailing to each person is $ 3
+1) Cost of mailing to each person is $ 2
 
 2) Revenue per person who responds positively to marketing campaign is $ 10
 
