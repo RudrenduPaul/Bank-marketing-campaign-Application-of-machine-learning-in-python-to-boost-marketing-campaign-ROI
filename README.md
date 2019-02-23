@@ -23,7 +23,7 @@ Overall distribution of campaign reponse in the original datset:
 
 ## Data Exploration of variables in dataset: 
 
-### Age:
+### Age (Numerical Variable):
 
 ![age_distribution](https://user-images.githubusercontent.com/38769913/53280932-7d12a100-36ee-11e9-9be8-34b5656b9967.png)
 
@@ -33,7 +33,7 @@ Overall distribution of campaign reponse in the original datset:
 
 The 95% confidence interval of the difference of means is [ 0.591 ,  1.413 ]. Hence, the difference of the mean of age is statistically significant at 95% confidence interval because the 95% confidence interval does not include 0.
 
-### Job:
+### Job (Categorical variable):
 
 ![job](https://user-images.githubusercontent.com/38769913/53280935-8996f980-36ee-11e9-8b08-cfa7d173249f.png)
 
@@ -50,7 +50,7 @@ Admin jobs,
 Retired
 Students.
 
-#### Education:
+#### Education (Categorical variable):
 
 ![education](https://user-images.githubusercontent.com/38769913/53280936-91569e00-36ee-11e9-9a41-a7a80e3c07d9.png)
 
@@ -61,6 +61,7 @@ Students.
 p value of chi-square test:  2.2494049169426562e-35
 
 #### Analysis:
+
 The chi square test reveals that education level is statistically significant at 95% confidence interval as p value is less than 5 %. From the chart above, those who responded "yes" had a much higher proportion of people with higher education (university.degree, high.school & professional.course) than those who responded "no".
 
 
