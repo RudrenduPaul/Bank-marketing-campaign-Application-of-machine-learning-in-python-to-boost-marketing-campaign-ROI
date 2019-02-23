@@ -44,7 +44,7 @@ The 95% confidence interval of the difference of means is [ 0.591 ,  1.413 ]. He
 
 ## Job (Categorical variable):
 
-![job](https://user-images.githubusercontent.com/38769913/53280935-8996f980-36ee-11e9-8b08-cfa7d173249f.png)
+![job 1](https://user-images.githubusercontent.com/38769913/53281342-8f8fd900-36f4-11e9-8975-4ad45c838b81.jpg)
 
 ### Statistical test on Job: 
 
@@ -61,7 +61,7 @@ From the chart shown above for the proportion of each job type in each groups, f
 
 ## Education (Categorical variable):
 
-![education](https://user-images.githubusercontent.com/38769913/53280936-91569e00-36ee-11e9-9a41-a7a80e3c07d9.png)
+![education 1](https://user-images.githubusercontent.com/38769913/53281314-4e97c480-36f4-11e9-9b15-d2d734f07776.jpg)
 
 ### Statistical test on Education: 
 
