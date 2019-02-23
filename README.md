@@ -21,6 +21,8 @@ Overall distribution of campaign reponse in the original datset:
 
 ![overall_repsonse](https://user-images.githubusercontent.com/38769913/53281021-19897300-36f0-11e9-877d-8c1acc627b98.png)
 
+## Data Exploration of variables in dataset: 
+
 ### Age:
 
 ![age_distribution](https://user-images.githubusercontent.com/38769913/53280932-7d12a100-36ee-11e9-9be8-34b5656b9967.png)
@@ -47,7 +49,6 @@ From the chart shown above for the proportion of each job type in each groups, f
 Admin jobs,
 Retired
 Students.
-
 
 #### Education:
 
