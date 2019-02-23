@@ -56,6 +56,18 @@ Random Forest:
 
 AUC score for random forest: 
 
+Top 10 most importamt variables based on random forest model:
+  1. age
+  2. poutcome_success
+  3. housing_yes
+  4. housing_no
+  5. previous
+  6. job_admin.
+  7. marital_married
+  8. education_university.degree
+  9. education_high.school
+  10. marital_single
+
 ### Model Comparison: 
 
 ![model_comparison](https://user-images.githubusercontent.com/38769913/53280966-1346c700-36ef-11e9-8070-abbd0aeac46a.png)
