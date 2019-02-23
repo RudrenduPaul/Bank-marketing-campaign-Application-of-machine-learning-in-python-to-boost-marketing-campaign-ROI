@@ -75,9 +75,12 @@ p value of chi-square test:  2.2494049169426562e-35
 
 The chi square test reveals that education level is statistically significant at 95% confidence interval as p value is less than 5 %. From the chart above, those who responded "yes" had a much higher proportion of people with higher education (university.degree, high.school & professional.course) than those who responded "no".
 
-The same process has been repeated for all the other variables in the dataset
+## Analysis of other variables in dataset
 
-### Models applied:
+The same process (visualization and statistical testing) has been repeated for all the other variables in the dataset.
+
+
+## Machine learning models applied on dataset:
 
 1) Logistic regression model (with L1 regularization)
 2) Naive bayes classifier model
