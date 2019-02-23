@@ -48,7 +48,7 @@ The 95% confidence interval of the difference of means is [ 0.591 ,  1.413 ]. He
 
 ### Statistical test on Job Type: 
 
-#### Chi square test of Job between 2 groups of people who responed "Yes" vs those who responded "No"
+#### Chi square test of Job type between 2 groups of people who responed "Yes" vs those who responded "No"
 
 p value of chi-square test:  4.232405679993378e-200
 
@@ -59,7 +59,7 @@ From the chart shown above for the proportion of each job type in each groups, f
 2. Retired
 3. Students
 
-## Education (Categorical variable):
+## Education Level (Categorical variable):
 
 ![education 1](https://user-images.githubusercontent.com/38769913/53281314-4e97c480-36f4-11e9-9b15-d2d734f07776.jpg)
 
