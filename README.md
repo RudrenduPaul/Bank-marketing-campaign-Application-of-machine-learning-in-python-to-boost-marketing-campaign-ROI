@@ -87,15 +87,15 @@ Logictic Regression with L1 regularization:
 
 ![auc_logistic__l1_reg](https://user-images.githubusercontent.com/38769913/53280939-9ae00600-36ee-11e9-92ae-a8fa5dd1e27c.png)
 
-AUC score for logistic regression with L1 regularization: 
+AUC score for logistic regression with L1 regularization: 79 %
 
 Random Forest:
 
 ![auc_random_forest](https://user-images.githubusercontent.com/38769913/53280959-a253df00-36ef-11e9-8040-a871d13ff3dc.png)
 
-AUC score for random forest: 
+AUC score for random forest: 78 %
 
-Top 10 most importamt variables based on random forest model:
+Top 10 most importamt variables based on variable importance in random forest model:
   1. age
   2. poutcome_success
   3. housing_yes
