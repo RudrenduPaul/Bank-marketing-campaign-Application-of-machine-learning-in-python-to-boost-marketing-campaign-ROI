@@ -24,6 +24,8 @@ Overall distribution of campaign reponse in the original datset:
 
 ![overall_repsonse](https://user-images.githubusercontent.com/38769913/53281018-05de0c80-36f0-11e9-9a4b-b54a522b25c0.png)
 
+![overall_repsonse](https://user-images.githubusercontent.com/38769913/53281021-19897300-36f0-11e9-877d-8c1acc627b98.png)
+
 Age:
 
 ![age_distribution](https://user-images.githubusercontent.com/38769913/53280932-7d12a100-36ee-11e9-9be8-34b5656b9967.png)
