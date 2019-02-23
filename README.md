@@ -1,6 +1,6 @@
 ## Marketing campaign for a Portugese bank - Application of machine learning models in python to boost marketing campaign ROI
 
-Please click on the Bank Marketing Campaign - Paul - Final.ipynb file above to see the detailed python code and its interpretation
+Please click on the Bank Marketing Campaign - Paul - Final.ipynb file above for more detailed analysis using python
 
 Bank Marketing Campaign (aplication of analytics and machine Learning models to improve marketing campaign ROI
 
