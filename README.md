@@ -4,26 +4,35 @@ Please click on the Bank Marketing Campaign - Paul - Final.ipynb file above to s
 
 Bank Marketing Campaign (aplication of analytics and machine Learning models to improve marketing campaign ROI
 
-This is a real data set from the marketing campaign of a bank with over 40000+ people on the list
-
 Data source: https://archive.ics.uci.edu/ml/datasets/bank+marketing
 
-Average response rate of people on list is 11% and hence, marketing to each person on the list incurs a loss of $ 34,000 with a ROI of negative 44 %.
+The data set (bank-additional-full.csv) consists of demographics data on 41,188 people.
 
-This machine learning model identifies the top customer segments with high probability of conversion of around 40% (4X the average) by rank scoring the people on list (targetted list) and provides a positive ROI of 79 % on a targetted list of people.
+The dataset has 20 input variables (mix of numeric and categorical variables) and 1 predictor variable (whether they reponded "yes" or "no") to the marketing campaign. The target variable is y (column # 21) - whether the clients have responded 'yes' or 'no' to term deposit.
 
-### Snapshot of analysis:
+## Snapshot of business case: 
 
-Details are in the Bank Marketing Campaign - Paul - Final.ipynb file
+Assumptions: 
 
-### Average response rate: 
+1) Cost of mailing to each person is $ 3
+
+2) Revenue per person who responds positively to marketing campaign is $ 10
+
+Average response rate of people on list is 11 %, marketing to every person on the test set incurs a loss of $ 7,000 with a ROI of negative 44 %.
+
+The best machine learning model identifies the subset of people with high probability of conversion of around 36 % (3.6 X the average) by rank scoring the people on list (creating a targetted list) and provides a positive ROI of 79 %.
+
+Detailed analysis is provided in Bank Marketing Campaign - Paul - Final.ipynb file (in the githib repository)
+
+### Average response rate (overall): 
+
 Overall distribution of campaign reponse in the original datset:
 
 ![overall_repsonse](https://user-images.githubusercontent.com/38769913/53281021-19897300-36f0-11e9-877d-8c1acc627b98.png)
 
-## Data Exploration of variables in dataset: 
+# Data Exploration of variables in dataset: 
 
-### Age (Numerical Variable):
+## Age (Numerical Variable):
 
 ![age_distribution](https://user-images.githubusercontent.com/38769913/53280932-7d12a100-36ee-11e9-9be8-34b5656b9967.png)
 
@@ -33,7 +42,7 @@ Overall distribution of campaign reponse in the original datset:
 
 The 95% confidence interval of the difference of means is [ 0.591 ,  1.413 ]. Hence, the difference of the mean of age is statistically significant at 95% confidence interval because the 95% confidence interval does not include 0.
 
-### Job (Categorical variable):
+## Job (Categorical variable):
 
 ![job](https://user-images.githubusercontent.com/38769913/53280935-8996f980-36ee-11e9-8b08-cfa7d173249f.png)
 
@@ -46,11 +55,11 @@ p value of chi-square test:  4.232405679993378e-200
 The chi square test shows that job is statistically significant at 95% confidence interval is whether people responded yes or no to the marketing campaign as the p value of the chi square is less than 5 %.
 From the chart shown above for the proportion of each job type in each groups, for people with the following job types had a higher % of responding "yes" than those who responded "no",
 
-Admin jobs,
-Retired
-Students.
+1. Admin jobs
+2. Retired
+3. Students
 
-#### Education (Categorical variable):
+## Education (Categorical variable):
 
 ![education](https://user-images.githubusercontent.com/38769913/53280936-91569e00-36ee-11e9-9a41-a7a80e3c07d9.png)
 
@@ -64,6 +73,7 @@ p value of chi-square test:  2.2494049169426562e-35
 
 The chi square test reveals that education level is statistically significant at 95% confidence interval as p value is less than 5 %. From the chart above, those who responded "yes" had a much higher proportion of people with higher education (university.degree, high.school & professional.course) than those who responded "no".
 
+The same process has been repeated for all the other variables in the dataset
 
 ### Models applied:
 
