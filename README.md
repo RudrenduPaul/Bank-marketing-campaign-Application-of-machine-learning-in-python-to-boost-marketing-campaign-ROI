@@ -91,7 +91,7 @@ The same process (visualization and statistical testing) has been repeated for a
 
 ### Principal component analysis:
 
-PCA was applied to achieve variable reduction and save computation time for KNN, gradient boosted tree and SVM classification algorithm. Using PCA, the total varaibles were reduced to 34 principal components that explain 90 % of variation in original dataset of 426 variables.
+PCA was applied to achieve variable reduction and save computation time for KNN, gradient boosted tree and SVM classification algorithm. Using PCA, the total varaibles were reduced to 34 principal components that explained 90 % of variation in original dataset of 426 variables.
 
 ### Logistic Regression with L1 regularization: 
 
