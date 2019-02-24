@@ -79,16 +79,23 @@ The chi square test reveals that education level is statistically significant at
 
 The same process (visualization and statistical testing) has been repeated for all the other variables in the dataset.
 
-
 ## Machine learning models applied on dataset:
 
 1) Logistic regression model (with L1 regularization)
 2) Naive bayes classifier model
-3) KNN classifier model
-4) Decision tree classifier model
-5) Random forest classifier model
+3) Random forest classifier model
+4) KNN classifier model
+5) Gradient boosted tree model
+6) Decision tree classifier model
+7) SVM classifier model
+
+### Principal component analysis:
+
+PCA was applied to achieve variable reduction and save computation time for KNN, gradient boosted tree and SVM classification algorithm. Using PCA, the total varaibles were reduced to 34 principal components that explain 90 % of variation in original dataset of 426 variables.
 
 ### Logistic Regression with L1 regularization: 
+
+Applying the L1 regularization reduced the input variables from 432 variables in original dataset to 234 variables with non-zero coefficient due to shrinkage but accuracy metric (test set AUC) was same for both the logistic regression models with and without regularization.
 
 ![auc_logistic__l1_reg](https://user-images.githubusercontent.com/38769913/53280939-9ae00600-36ee-11e9-92ae-a8fa5dd1e27c.png)
 
@@ -114,7 +121,7 @@ Top 10 most importamt variables based on variable importance in random forest mo
 
 ### Model Comparison: 
 
-![model_comparison](https://user-images.githubusercontent.com/38769913/53280966-1346c700-36ef-11e9-8070-abbd0aeac46a.png)
+![image](https://user-images.githubusercontent.com/38769913/53304001-ba864400-383e-11e9-869b-80939bce6d5a.png)
 
 ### Model selection: 
 
