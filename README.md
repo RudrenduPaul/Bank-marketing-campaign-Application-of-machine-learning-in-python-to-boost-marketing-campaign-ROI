@@ -133,7 +133,8 @@ How well my model is performing compared to campaigning to everyone on the list 
 
 Plot shows how much improvement the rank scored response is performing decile of customers targetted 
 
-![lift chart - test set](https://user-images.githubusercontent.com/38769913/53280961-fc07d980-36ee-11e9-86fb-270d98909e68.png)
+![image](https://user-images.githubusercontent.com/38769913/53309988-db6b8b00-3878-11e9-8980-0ab4bf2e80d5.png)
+
 
 ## Business Application
 
